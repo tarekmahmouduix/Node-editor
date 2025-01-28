@@ -23,8 +23,6 @@ local contextMenu = require(script.Parent.Nodegui.contextMenu).new(UDim2.new(0, 
 local Background = script.Parent.UI.Background
 local ContextMenuGui = script.Parent.UI.ContextMenu
 
-local BASE_NODE_ID = "BaseNode"
-
 local selectedNode: types.Node? = nil
 
 local function QuadraticBezier(p0, p1, p2, t)
